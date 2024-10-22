@@ -1,0 +1,40 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#editor-container, #output-container {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+
+.CodeMirror {
+    height: calc(100% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#iframe-container {
+    height: calc(100% - 40px);
+}
+
+#output-frame {
+    width: 100%;
+    height: calc(100% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
